@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="../assets/Image/logo.ico" type="image/x-icon" />
+  <title>訂單明細</title>
+  <link rel="stylesheet" type="text/css" href="../assets/Css/style.css">
+  <link rel="stylesheet" type="text/css" href="../assets/Css/slideshow.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-blue">
+
+    <a class="abs-center-x" href="../index.jsp"><img class="logo" src="../assets/Image/logo.png"></a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar8">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <span class="navbar-text">&nbsp;</span>
+    <div class="navbar-collapse collapse" id="navbar8">
+
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="./about.html">關於我們</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="./product.html">產品介紹</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="./qa.html">Q&A</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="./contact us.jsp">聯絡我們</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="./member.jsp">會員專區</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="./login.html">登入</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="./sign up.html">註冊</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <a href="./car.jsp"><img class="shoppingcart" src="../assets/Image/shoppingcart.png"></a>
+
+  <div class="title">訂單明細</div>
+  <div class="container">
+    <div class="box col-sm-10" style="margin:45px auto;">
+      <div class="row">
+        <div class="col-sm-6" style="margin:45px auto;">
+          <img class="img-thumbnail shopping_img" src="../assets/Image/dango1.jpg">
+        </div>
+        <div class="col-sm-6" style="margin:45px auto;">
+          <div class="shopping_box">
+            <form class="form-inline">
+              <div class="form-group">
+                <div class="content">
+                  <h5>品名：三色糰子</h5>
+                  <h5>售價：$50/串</h5>
+                  <h5>購買數量：2</h5>
+                  <h5>單項商品總價：$100</h5>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <form>
+        <br>
+        商品總金額：$100<br />
+        運費：$60<br />
+        訂單總金額：$160
+        <hr />
+        <p class="text-right" style="color: red;">有*為必填選項</p>
+        <label>收件人姓名：</label><label style="color: red;">*</label><input class="form-control" name="order-name" placeholder="請輸入姓名"
+          required><br />
+        <label>連絡電話：</label><label style="color: red;">*</label><input class="form-control" name="order-phone" placeholder="請輸入連絡電話"
+          required><br />
+
+        <label>寄送方式：</label><label style="color: red;">*</label><select class="form-control" name="order-delivery" required>
+          <option disabled selected hidden>請選擇寄送方式</option>
+          <option value="7-11">7-11</option>
+          <option value="全家">全家</option>
+          <option value="宅配">宅配</option>
+        </select><br />
+        <label>如選擇超商，請輸入超商門市：</label><input class="form-control" name="order-store" placeholder="請輸入門市名稱"><br /><br />
+        <label>如選擇宅配，請輸入地址：</label><input class="form-control" name="order-address" placeholder="請輸入地址"><br /><br />
+        <label>支付方式：</label><label style="color: red;">*</label><select class="form-control" name="order-pay" required>
+          <option disabled selected hidden>請選擇支付方式</option>
+          <option value="貨到付款">貨到付款</option>
+          <option value="信用卡">信用卡</option>
+          <option value="銀行轉帳">銀行轉帳</option>
+        </select><br />
+
+
+        <div class="text-center">
+          <input type="submit" value="送出訂單" class="btn btn-info">
+        </div>
+
+      </form>
+    </div>
+
+  </div>
+
+  <script src="../assets/Js/number.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+  </script>
+</body>
+<footer>
+  <p>瀏覽人次:10人</p>
+  <p>Copyright© 2021 wagashi和菓子專賣 版權所有</p>
+</footer>
+
+</html>
