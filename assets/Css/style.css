@@ -1,0 +1,435 @@
+body {
+  background-color: #fdfdf1;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 50;
+  color: #9ad9ea;
+  border-radius: 0px;
+  text-align: center;
+}
+
+.bg-blue {
+  background-color: #9ad9ea;
+}
+
+.navbar {
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  font-size: 20px;
+}
+
+.logo {
+  height: 45px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+
+
+footer {
+  position: relative;
+  bottom: -10px;
+  width: auto;
+  height: 100px;
+  background-color: #9ad9ea;
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  position: relative;
+  bottom: -20px;
+  font-size: 17px;
+}
+
+fieldset.scheduler-border {
+  border: 5px solid #7092bf;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+legend.scheduler-border {
+  width: auto;
+  text-align: center;
+  font-size: 26px;
+  color: #7092bf;
+  font-weight: bold;
+}
+
+.shoppingcart {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  z-index: 3;
+}
+
+.abs-center-x {
+  position: fixed;
+  left: 50%;
+  top: 7px;
+  transform: translateX(-50%);
+}
+
+.vertical-menu {
+  width: 15%;
+  position: relative;
+  text-align: center;
+  margin-top: -10%;
+}
+
+.vertical-menu a {
+  background-color: #f6ffa4;
+  color: #22589f;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ffbb27;
+  text-decoration: none;
+}
+
+.vertical-menu a.active {
+  background-color: #ffbb27;
+}
+
+.card {
+  margin: 50px;
+  text-align: center;
+}
+
+.card {
+  opacity: 1;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card:hover {
+  opacity: 0.6;
+}
+
+.title {
+  position: relative;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #22589f;
+  text-decoration: underline;
+}
+
+.product_box {
+  color: #7092bf;
+  padding: 35px;
+  border: 3px solid #7092bf;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.product_img {
+  margin-top: 50px;
+  cursor: zoom-in;
+}
+
+.introduction {
+  font-size: 20px;
+  color: #22589f;
+  padding: 15px;
+  background-color: lightgreen;
+  border-radius: 10px;
+}
+
+.introduction .text {
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.star img {
+  width: 30px;
+  margin-right: -8px;
+}
+
+.comment {
+  background-color: pink;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.comment .text {
+  margin-top: 15px;
+}
+
+.comment p {
+  font-weight: bold;
+}
+
+.contactus {
+  padding: 20px;
+  background-color: #9ad9ea;
+  border-radius: 8px;
+}
+
+.about {
+  background-color: rgb(255, 255, 147);
+  font-size: 20px;
+  border-radius: 25px;
+  margin: 70px;
+  padding: 30px;
+  color: cadetblue;
+}
+
+.about2 {
+  border: 15px double rgb(153, 211, 235);
+  font-size: 20px;
+  border-radius: 8px;
+  margin: 70px;
+  color: rgb(95, 101, 160);
+
+}
+
+.about1 {
+  background-color: rgb(250, 250, 176);
+  border-radius: 25px;
+  margin: 70px;
+  padding: 30px;
+  font-size: 20px;
+  color: rgb(78, 139, 141);
+}
+
+.about3 {
+
+  color: rgb(96, 188, 228);
+  margin: 70px;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.qa {
+  border-radius: 8px;
+  margin: 20px;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 35px;
+}
+
+.circle2 {
+  width: 60px;
+  height: 60px;
+  line-height: 45px;
+  font-size: 35px;
+  text-align: center;
+  border-radius: 999em;
+  border: 5px solid rgb(236, 174, 205);
+  color: rgb(236, 174, 205);
+  background-color: white;
+}
+
+.circle1 {
+  width: 60px;
+  height: 60px;
+  line-height: 45px;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 999em;
+  border: 5px solid rgb(154, 186, 224);
+  color: rgb(154, 186, 224);
+  background-color: white;
+}
+
+.t1 {
+  position: relative;
+  margin-top: -65px;
+  margin-left: 80px;
+  font-size: 40px;
+}
+
+
+.box {
+  border-radius: 8px;
+  padding: 60px 80px 60px 80px;
+  border: 5px solid #7092bf;
+  color: #7092bf;
+  font-size: 18px;
+
+}
+
+.box label {
+  line-height: 50px;
+}
+
+
+.shopping_box {
+  color: #7092bf;
+  padding: 35px;
+  border: 3px solid #7092bf;
+  border-radius: 5px;
+
+}
+
+.content h5 {
+  line-height: 35px;
+}
+
+.img1 {
+  width: 350px;
+  border-radius: 15px;
+}
+
+
+.info {
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: rgba(0, 0, 0, .3);
+  color: white;
+  font-size: 22px;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 5px;
+  border-radius: 15px;
+}
+
+.work {
+  padding: 45px;
+}
+
+.t {
+  font-size: 25px;
+  padding: 20px;
+}
+
+.t2 {
+  font-size: 25px;
+  color: #7092bf;
+  line-height: 75px;
+}
+
+.info:hover {
+  opacity: 1;
+  transition: opacity 0.8s;
+}
+
+.icon {
+  width: 50px;
+  position: relative;
+}
+
+
+#displaysign {
+  position: relative;
+  top: 80px;
+  left: 180px;
+  width: 150px;
+  height: 60px;
+  background-color: #7092bf;
+  color: white;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+#displaysign2 {
+  position: relative;
+  top: 80px;
+  left: 200px;
+  width: 150px;
+  height: 60px;
+  background-color: #7092bf;
+  color: white;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+#displaysign3 {
+  position: relative;
+  top: 80px;
+  left: 220px;
+  width: 150px;
+  height: 60px;
+  background-color: #7092bf;
+  color: white;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.signform {
+  font-family: 微軟雅黑;
+  position: fixed;
+  background-color: rgb(255, 255, 147);
+  top: 10%;
+  left: 30%;
+  width: 500px;
+  height: 550px;
+  border-radius: 1em;
+  text-align: center;
+  z-index: 999;
+}
+
+.signform2 {
+  font-family: 微軟雅黑;
+  position: fixed;
+  background-color: rgb(255, 255, 147);
+  top: 10%;
+  left: 30%;
+  width: 500px;
+  height: 550px;
+  border-radius: 1em;
+  text-align: center;
+  z-index: 999;
+}
+
+.signform3 {
+  font-family: 微軟雅黑;
+  position: fixed;
+  background-color: rgb(255, 255, 147);
+  top: 10%;
+  left: 30%;
+  width: 500px;
+  height: 550px;
+  border-radius: 1em;
+  text-align: center;
+  z-index: 999;
+}
+
+#registerform {
+  height: 450px;
+}
+
+.signclose {
+  cursor: pointer;
+  float: right;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  height: 35px;
+  width: 35px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+#registerloading {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 410px;
+  top: 90px;
+}
+
+.signinput::-webkit-input-placeholder {
+  font-size: 26px;
+}
